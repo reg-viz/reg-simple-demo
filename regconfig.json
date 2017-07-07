@@ -1,0 +1,19 @@
+{
+  "core": {
+    "workingDir": "/Users/yosuke/git/reg-simple-demo/reg",
+    "actualDir": "actual",
+    "expectedDir": "expected"
+  },
+  "plugins": {
+    "reg-keygen-git-hash-plugin": true,
+    "reg-notify-github-plugin": {
+      "installationId": "37779",
+      "owner": "Quramy",
+      "repository": "reg-simple-demo",
+      "prComment": true
+    },
+    "reg-publish-s3-plugin": {
+      "bucketName": "reg-publish-bucket-14ccadad-40b7-45b2-8d47-e278a849aa3b"
+    }
+  }
+}
