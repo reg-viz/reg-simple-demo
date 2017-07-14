@@ -1,2 +1,3 @@
 # reg-simple-demo
-Demonstration repository for reg-sui
+
+It's demonstration repository for reg-suit :space_invader:
