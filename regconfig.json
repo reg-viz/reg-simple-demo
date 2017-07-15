@@ -1,7 +1,7 @@
 {
   "core": {
-    "workingDir": "/Users/yosuke/git/reg-simple-demo/reg",
-    "actualDir": "actual",
+    "workingDir": "reg",
+    "actualDir": "../viz-test",
     "expectedDir": "expected"
   },
   "plugins": {
