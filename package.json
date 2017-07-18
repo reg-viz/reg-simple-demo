@@ -1,9 +1,12 @@
 {
   "private": true,
+  "scripts": {
+    "reg": "reg-suit run --verbose"
+  },
   "devDependencies": {
-    "reg-keygen-git-hash-plugin": "^0.0.19",
-    "reg-notify-github-plugin": "^0.0.20",
-    "reg-publish-s3-plugin": "^0.0.20",
-    "reg-suit": "^0.0.20"
+    "reg-keygen-git-hash-plugin": "^0.1.0",
+    "reg-notify-github-plugin": "^0.1.0",
+    "reg-publish-s3-plugin": "^0.1.0",
+    "reg-suit": "^0.1.1"
   }
 }

@@ -31,14 +31,6 @@ array-find-index@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/array-find-index/-/array-find-index-1.0.2.tgz#df010aa1287e164bbda6f9723b0a96a1ec4187a1"
 
-array-parallel@~0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/array-parallel/-/array-parallel-0.1.3.tgz#8f785308926ed5aa478c47e64d1b334b6c0c947d"
-
-array-series@~0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/array-series/-/array-series-0.1.5.tgz#df5d37bfc5c2ef0755e2aa4f92feae7d4b5a972f"
-
 asn1@~0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/asn1/-/asn1-0.2.3.tgz#dac8787713c9966849fc8180777ebe9c1ddf3b86"
@@ -194,10 +186,6 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.10.0:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
-
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
@@ -217,14 +205,6 @@ cross-spawn@^4.0.0:
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-4.0.2.tgz#7b9247621c23adfdd3856004a823cbe397424d41"
   dependencies:
     lru-cache "^4.0.1"
-    which "^1.2.9"
-
-cross-spawn@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
-  dependencies:
-    lru-cache "^4.0.1"
-    shebang-command "^1.2.0"
     which "^1.2.9"
 
 cryptiles@2.x.x:
@@ -248,12 +228,6 @@ dashdash@^1.12.0:
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
   dependencies:
     assert-plus "^1.0.0"
-
-debug@~2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
-  dependencies:
-    ms "0.7.1"
 
 decamelize@^1.1.1, decamelize@^1.1.2:
   version "1.2.0"
@@ -378,15 +352,6 @@ glob@^7.1.1, glob@^7.1.2:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-gm@^1.23.0:
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/gm/-/gm-1.23.0.tgz#80a2fe9cbf131515024846444658461269f52661"
-  dependencies:
-    array-parallel "~0.1.3"
-    array-series "~0.1.5"
-    cross-spawn "^4.0.0"
-    debug "~2.2.0"
-
 graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
@@ -439,16 +404,13 @@ ieee754@^1.1.4:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
 
-image-difference@^2.0.7:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/image-difference/-/image-difference-2.0.7.tgz#9552a97648cf46f1c6ee8a2946cb16bb26947345"
+img-diff-js@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/img-diff-js/-/img-diff-js-0.2.0.tgz#4bd1fcc40b2f65111efbd45db5a40c9d25670b07"
   dependencies:
-    chalk "^2.0.1"
-    commander "^2.10.0"
-    cross-spawn "^5.1.0"
-    gm "^1.23.0"
-    mkdirp "^0.5.1"
-    tmp "^0.0.31"
+    jpeg-js "^0.3.3"
+    pixelmatch "^4.0.2"
+    pngjs "^3.2.0"
 
 indent-string@^2.1.0:
   version "2.1.0"
@@ -547,6 +509,10 @@ isstream@~0.1.2:
 jmespath@0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.15.0.tgz#a3f222a9aae9f966f5d27c796510e28091764217"
+
+jpeg-js@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.3.3.tgz#4d60ea7188d1a7598e92f0a8cdcaf5d78286bea6"
 
 jsbn@~0.1.0:
   version "0.1.1"
@@ -702,10 +668,6 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-ms@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
-
 mustache@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/mustache/-/mustache-2.3.0.tgz#4028f7778b17708a489930a6e52ac3bca0da41d0"
@@ -849,6 +811,16 @@ pinkie@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
 
+pixelmatch@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/pixelmatch/-/pixelmatch-4.0.2.tgz#8f47dcec5011b477b67db03c243bc1f3085e8854"
+  dependencies:
+    pngjs "^3.0.0"
+
+pngjs@^3.0.0, pngjs@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-3.2.0.tgz#fc9fcea1a8a375da54a51148019d5abd41dbabde"
+
 pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
@@ -906,51 +878,37 @@ redent@^1.0.0:
     indent-string "^2.1.0"
     strip-indent "^1.0.1"
 
-reg-cli@^0.7.0:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/reg-cli/-/reg-cli-0.7.4.tgz#3349d8010714087b66c7fb9603abe0dd2914e4b4"
+reg-cli@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/reg-cli/-/reg-cli-0.8.0.tgz#2b8f52b6e7f44239d18b5e17606f2d0dbb99ac0e"
   dependencies:
     chalk "^2.0.0"
     cli-spinner "^0.2.6"
     glob "^7.1.1"
-    image-difference "^2.0.7"
+    img-diff-js "^0.2.0"
     lodash "^4.17.4"
     make-dir "^1.0.0"
     md5-file "^3.1.1"
     meow "^3.7.0"
     mustache "^2.3.0"
 
-reg-cli@^0.7.5:
-  version "0.7.5"
-  resolved "https://registry.yarnpkg.com/reg-cli/-/reg-cli-0.7.5.tgz#4ee4982432872c9aabad3119cdd2d5fc247b812e"
-  dependencies:
-    chalk "^2.0.0"
-    cli-spinner "^0.2.6"
-    glob "^7.1.1"
-    image-difference "^2.0.7"
-    lodash "^4.17.4"
-    make-dir "^1.0.0"
-    md5-file "^3.1.1"
-    meow "^3.7.0"
-    mustache "^2.3.0"
+reg-keygen-git-hash-plugin@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/reg-keygen-git-hash-plugin/-/reg-keygen-git-hash-plugin-0.1.0.tgz#a58db81d629fc45bb8a89310b18e52818436f9e3"
 
-reg-keygen-git-hash-plugin@^0.0.19:
-  version "0.0.19"
-  resolved "https://registry.yarnpkg.com/reg-keygen-git-hash-plugin/-/reg-keygen-git-hash-plugin-0.0.19.tgz#fe2066363421f33f498510f4d992d94dbc8ccd18"
-
-reg-notify-github-plugin@^0.0.20:
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/reg-notify-github-plugin/-/reg-notify-github-plugin-0.0.20.tgz#474e4c2ce3d072f87150a6b890159fcddf9d77e0"
+reg-notify-github-plugin@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/reg-notify-github-plugin/-/reg-notify-github-plugin-0.1.0.tgz#eeb0c01c97a15aff38746b1620b96130eb351bb1"
   dependencies:
     open "^0.0.5"
-    reg-keygen-git-hash-plugin "^0.0.19"
-    reg-suit-util "^0.0.20"
+    reg-keygen-git-hash-plugin "^0.1.0"
+    reg-suit-util "^0.1.0"
     request "^2.81.0"
     request-promise "^4.2.1"
 
-reg-publish-s3-plugin@^0.0.20:
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/reg-publish-s3-plugin/-/reg-publish-s3-plugin-0.0.20.tgz#504481b2d5144f520e7b6bbcccee2f0d49788e1b"
+reg-publish-s3-plugin@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/reg-publish-s3-plugin/-/reg-publish-s3-plugin-0.1.0.tgz#b6c5c2e821b7c4aeac21a16182ad28588d66e6f4"
   dependencies:
     aws-sdk "^2.77.0"
     glob "^7.1.2"
@@ -959,27 +917,27 @@ reg-publish-s3-plugin@^0.0.20:
     mkdirp "^0.5.1"
     uuid "^3.1.0"
 
-reg-suit-core@^0.0.20:
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/reg-suit-core/-/reg-suit-core-0.0.20.tgz#b534ee67b45edd490ab105ef3b2040afae7adac0"
+reg-suit-core@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/reg-suit-core/-/reg-suit-core-0.1.1.tgz#0cb709aa7a2ff8296647b1ccac309a621a63f8ad"
   dependencies:
-    reg-cli "^0.7.0"
-    reg-suit-util "^0.0.20"
+    reg-cli "^0.8.0"
+    reg-suit-util "^0.1.0"
     resolve "^1.3.3"
 
-reg-suit-util@^0.0.20:
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/reg-suit-util/-/reg-suit-util-0.0.20.tgz#a6fa0d33ab5ff5f516134cd8df23c64319d59512"
+reg-suit-util@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/reg-suit-util/-/reg-suit-util-0.1.0.tgz#b82042bec4b7100cc0cedc9ec822ef94a5e62968"
   dependencies:
     chalk "^2.0.1"
 
-reg-suit@^0.0.20:
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/reg-suit/-/reg-suit-0.0.20.tgz#284294efbbc50bac6d1c0a041884903d6d5723f4"
+reg-suit@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/reg-suit/-/reg-suit-0.1.1.tgz#3410781574d5f11b22d4e4d5be6554205293231f"
   dependencies:
     cp-file "^4.2.0"
     inquirer "^3.1.1"
-    reg-suit-core "^0.0.20"
+    reg-suit-core "^0.1.1"
     resolve "^1.3.3"
     yargs "^8.0.2"
 
@@ -1083,16 +1041,6 @@ sax@1.2.1, sax@>=0.6.0:
 set-blocking@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
-
-shebang-command@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-1.2.0.tgz#44aac65b695b03398968c39f363fee5deafdf1ea"
-  dependencies:
-    shebang-regex "^1.0.0"
-
-shebang-regex@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
