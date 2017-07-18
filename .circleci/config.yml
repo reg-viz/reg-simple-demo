@@ -34,6 +34,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests!
-      - run: git branch -a
+      - run: yarn test
+      - run: yarn run reg-suit --verbose --test
 
 
