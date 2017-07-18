@@ -7,8 +7,8 @@
   "plugins": {
     "reg-keygen-git-hash-plugin": true,
     "reg-notify-github-plugin": {
-      "installationId": "37779",
-      "owner": "Quramy",
+      "installationId": "40124",
+      "owner": "reg-viz",
       "repository": "reg-simple-demo",
       "prComment": true
     },
