@@ -20,10 +20,8 @@ build:
     - script:
       name: create the current snapshot
       code: |
-        touch viz-test/sample.jpg
-        mkdir -p reg/actual
-        cp viz-test/sample.jpg reg/actual
+        yarn test
     - script:
       name: run reg
       code: |
-        yarn run reg
+        yarn run reg-suit -- --verbose

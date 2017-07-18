@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "reg": "reg-suit run --verbose"
+    "test": "mkdir -p reg/actual; cp viz-test/sample.jpg reg/actual",
+    "reg-suit": "reg-suit run"
   },
   "devDependencies": {
     "reg-keygen-git-hash-plugin": "^0.1.0",
