@@ -1,7 +1,7 @@
 {
   "core": {
     "workingDir": "reg",
-    "actualDir": "../viz-test",
+    "actualDir": "actual",
     "expectedDir": "expected"
   },
   "plugins": {

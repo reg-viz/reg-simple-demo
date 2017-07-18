@@ -17,6 +17,8 @@ build:
       name: create the current snapshot
       code: |
         touch viz-test/sample.jpg
+        mkdir -p reg/actual
+        cp viz-test/sample.jpg reg/actual
     - script:
       name: run reg
       code: |
