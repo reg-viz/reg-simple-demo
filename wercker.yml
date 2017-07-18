@@ -10,6 +10,10 @@ build:
       code: |
         HOME=$YARN_CACHE yarn
     - script:
+      name: workaround fix detached
+      code: |
+        git checkout -b $WERCKER_GIT_BRANCH
+    - script:
       name: create the current snapshot
       code: |
         touch viz-test/sample.jpg
