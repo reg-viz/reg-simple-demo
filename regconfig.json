@@ -1,6 +1,6 @@
 {
   "core": {
-    "workingDir": "/Users/yosuke/git/reg-simple-demo/reg",
+    "workingDir": "reg",
     "actualDir": "actual",
     "expectedDir": "expected"
   },

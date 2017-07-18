@@ -1,0 +1,25 @@
+box: node
+build:
+  steps:
+    - script:
+      name: configure yarn cache
+      code: |
+        export YARN_CACHE=$WERCKER_CACHE_DIR/yarn
+    - script:
+      name: install deps
+      code: |
+        HOME=$YARN_CACHE yarn
+    - script:
+      name: workaround fix detached
+      code: |
+        git checkout -b $WERCKER_GIT_BRANCH
+    - script:
+      name: create the current snapshot
+      code: |
+        touch viz-test/sample.jpg
+        mkdir -p reg/actual
+        cp viz-test/sample.jpg reg/actual
+    - script:
+      name: run reg
+      code: |
+        yarn run reg
