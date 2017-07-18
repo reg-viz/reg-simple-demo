@@ -2,6 +2,10 @@ box: node
 build:
   steps:
     - script:
+      name: show git stats
+      code: |
+        git branch -a
+    - script:
       name: configure yarn cache
       code: |
         export YARN_CACHE=$WERCKER_CACHE_DIR/yarn
