@@ -12,7 +12,9 @@ build:
     - script:
       name: workaround fix detached
       code: |
-        test $WERCKER_GIT_BRANCH != "master" && git checkout -b $WERCKER_GIT_BRANCH
+        if [ "$WERCKER_GIT_BRANCH" != "master" ]; then
+        git checkout -b $WERCKER_GIT_BRANCH
+        fi
     - script:
       name: create the current snapshot
       code: |
