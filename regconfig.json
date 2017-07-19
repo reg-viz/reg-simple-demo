@@ -1,7 +1,7 @@
 {
   "core": {
     "workingDir": "reg",
-    "actualDir": "viz-test",
+    "actualDir": "viz-test"
   },
   "plugins": {
     "reg-keygen-git-hash-plugin": true,
