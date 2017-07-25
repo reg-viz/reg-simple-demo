@@ -4,7 +4,9 @@
     "actualDir": "viz-test"
   },
   "plugins": {
-    "reg-keygen-git-hash-plugin": true,
+    "reg-keygen-git-hash-plugin": {
+      "expectedType": "base-commit"
+    },
     "reg-notify-github-plugin": {
       "installationId": "40124",
       "owner": "reg-viz",
