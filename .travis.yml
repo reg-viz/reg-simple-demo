@@ -4,6 +4,8 @@ language: node_js
 node_js:
 - '6'
 script:
+- git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+- git fetch origin
 - git checkout $TRAVIS_BRANCH || git checkout -b $TRAVIS_BRANCH
 - yarn test
 - yarn run reg-suit -- --verbose --test
