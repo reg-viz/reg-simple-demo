@@ -24,4 +24,4 @@ build:
     - script:
       name: run reg
       code: |
-        yarn run reg-suit -- --verbose
+        yarn run reg-suit

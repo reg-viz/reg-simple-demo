@@ -8,7 +8,7 @@ script:
 - git fetch origin
 - git checkout $TRAVIS_BRANCH || git checkout -b $TRAVIS_BRANCH
 - yarn test
-- yarn run reg-suit -- --verbose --test
+- yarn run reg-suit -- --test
 env:
   global:
   - secure: dXakyAfnVHCzA60ApEja+29lPZwCI8wY69H2YiHZcDm9tHAJSoDpDisdDRhF2IkYgRTm6HxHOlBpnnAfvQcU+00RGfd15YVOO4yr2auQomB09vtsKuvvqbaF9buQZ1pXXLTvIs1B/nB1vom0NNyNMUmpwoOS8hmVVemyueMAJDp7a/7rpkQItZfHCIwHtK2fEXNdSXGV9M3k5cF5Bss4nlTLzRVbBvNFfuKE8DxEOKwdDrELS8eFg8Qtn2q5/Lznge72mMOQEETI6BMtPUYNtOPxgaPMKy/hTvG/XxEilIQ9syWvPoAkoAVahOIECXMbM3HsfquCK4F2u4LiTtFUS9KIEO0PuZhY85E27zJIB4u0HXsNvvBBn2q2oZeiOE+XGnFomZnvNh8s1Ls59Z/j1bZpsL24iP4UyuyEOVLhhH+lEBTDnapCG15kERnTPCN9dof3fjEu/1wFRk3Nz+5tPl0CxR54ttkF03jpY1GnKgrCCDLD7QGoi0E0+wzhNIcIvpaIZm6ny7FH/LeCVjYZENlLRNPBuk3PTJXy8efcHd/ec1QmP6ubXonD7n8TgKzsFV0r7YOLoi3maAG5e6KbxBSkRt0H3/dIy1pmLclGCsndVo1gXaTFr8rkwrk1iEgio/62AruRassYl9VWpeNjMGjGSmwBfBmHozyJ97lwlv4=
