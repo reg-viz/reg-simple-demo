@@ -242,6 +242,12 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
+cli-progress@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/cli-progress/-/cli-progress-1.4.1.tgz#998a726113e0da7be4f2cb4e0716e1b4c07abb0c"
+  dependencies:
+    colors "^1.1.2"
+
 cli-spinner@^0.2.6:
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/cli-spinner/-/cli-spinner-0.2.6.tgz#8a59703324e93a908f6e601e4e74f5b85b371e5c"
@@ -275,6 +281,10 @@ color-convert@^1.0.0:
 color-name@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.2.tgz#5c8ab72b64bd2215d617ae9559ebb148475cf98d"
+
+colors@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
 
 combined-stream@^1.0.5, combined-stream@~1.0.5:
   version "1.0.5"
@@ -1356,23 +1366,23 @@ reg-cli@^0.8.5:
     meow "^3.7.0"
     mustache "^2.3.0"
 
-reg-keygen-git-hash-plugin@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/reg-keygen-git-hash-plugin/-/reg-keygen-git-hash-plugin-0.3.0.tgz#bc6cb410b0275f8a5b0a76e927104b1512ef999d"
+reg-keygen-git-hash-plugin@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/reg-keygen-git-hash-plugin/-/reg-keygen-git-hash-plugin-0.3.1.tgz#965e66b876e73f45318cd964ca37e02e0f91713e"
 
-reg-notify-github-plugin@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/reg-notify-github-plugin/-/reg-notify-github-plugin-0.3.0.tgz#60f11b2bbe95c84eb1c5a326c0116ccf1713109b"
+reg-notify-github-plugin@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/reg-notify-github-plugin/-/reg-notify-github-plugin-0.3.1.tgz#a8bf2eb776013f6482d4e88898195e2e52987720"
   dependencies:
     open "^0.0.5"
-    reg-keygen-git-hash-plugin "^0.3.0"
-    reg-suit-util "^0.2.0"
+    reg-keygen-git-hash-plugin "^0.3.1"
+    reg-suit-util "^0.3.1"
     request "^2.81.0"
     request-promise "^4.2.1"
 
-reg-publish-s3-plugin@^0.2.6:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/reg-publish-s3-plugin/-/reg-publish-s3-plugin-0.2.6.tgz#e47a650bdac67d31686fe9f16ecb11cdbf8d71e3"
+reg-publish-s3-plugin@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/reg-publish-s3-plugin/-/reg-publish-s3-plugin-0.3.1.tgz#cc1b9e782b3bdc2c8ef5f48fbe1ee7add6b4aee4"
   dependencies:
     aws-sdk "^2.77.0"
     glob "^7.1.2"
@@ -1381,30 +1391,31 @@ reg-publish-s3-plugin@^0.2.6:
     mkdirp "^0.5.1"
     uuid "^3.1.0"
 
-reg-suit-core@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/reg-suit-core/-/reg-suit-core-0.3.0.tgz#ea2c18cf0ab6235ea7148057e1c7ae72b8c4f068"
+reg-suit-core@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/reg-suit-core/-/reg-suit-core-0.3.1.tgz#63c73b483dfc58926af043c9758e2a7a1a5fc5cd"
   dependencies:
     cpx "^1.5.0"
     reg-cli "^0.8.5"
-    reg-suit-util "^0.2.0"
-    resolve "^1.3.3"
+    reg-suit-util "^0.3.1"
     rimraf "^2.6.1"
 
-reg-suit-util@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/reg-suit-util/-/reg-suit-util-0.2.0.tgz#7792f9877f1749e6540a4860d80e9bccc3941b37"
+reg-suit-util@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/reg-suit-util/-/reg-suit-util-0.3.1.tgz#9266988cb2946ad733015dbc71807e3897eba078"
   dependencies:
     chalk "^2.0.1"
+    cli-progress "^1.4.1"
+    cli-spinner "^0.2.6"
 
-reg-suit@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/reg-suit/-/reg-suit-0.3.0.tgz#5e265f13712b1a8e5829f4fc246f3648a4c2f915"
+reg-suit@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/reg-suit/-/reg-suit-0.3.1.tgz#38bcdc745603d430a77a74602eb87b07c00474d0"
   dependencies:
     cp-file "^4.2.0"
     inquirer "^3.1.1"
-    reg-suit-core "^0.3.0"
-    resolve "^1.3.3"
+    reg-suit-core "^0.3.1"
+    reg-suit-util "^0.3.1"
     yargs "^8.0.2"
 
 regenerator-runtime@^0.10.0:
@@ -1486,7 +1497,7 @@ require-main-filename@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-1.0.1.tgz#97f717b69d48784f5f526a6c5aa8ffdda055a4d1"
 
-resolve@^1.1.7, resolve@^1.3.3:
+resolve@^1.1.7:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.3.3.tgz#655907c3469a8680dc2de3a275a8fdd69691f0e5"
   dependencies:
