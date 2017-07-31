@@ -1366,23 +1366,23 @@ reg-cli@^0.8.5:
     meow "^3.7.0"
     mustache "^2.3.0"
 
-reg-keygen-git-hash-plugin@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/reg-keygen-git-hash-plugin/-/reg-keygen-git-hash-plugin-0.3.1.tgz#965e66b876e73f45318cd964ca37e02e0f91713e"
+reg-keygen-git-hash-plugin@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/reg-keygen-git-hash-plugin/-/reg-keygen-git-hash-plugin-0.4.0.tgz#958fc06c2b59c337f1690cb6be2acf5af6181f25"
 
-reg-notify-github-plugin@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/reg-notify-github-plugin/-/reg-notify-github-plugin-0.3.1.tgz#a8bf2eb776013f6482d4e88898195e2e52987720"
+reg-notify-github-plugin@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/reg-notify-github-plugin/-/reg-notify-github-plugin-0.4.0.tgz#bd22bc137502b7147a504b5733cca581be99c7bf"
   dependencies:
     open "^0.0.5"
-    reg-keygen-git-hash-plugin "^0.3.1"
-    reg-suit-util "^0.3.1"
+    reg-keygen-git-hash-plugin "^0.4.0"
+    reg-suit-util "^0.4.0"
     request "^2.81.0"
     request-promise "^4.2.1"
 
-reg-publish-s3-plugin@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/reg-publish-s3-plugin/-/reg-publish-s3-plugin-0.3.1.tgz#cc1b9e782b3bdc2c8ef5f48fbe1ee7add6b4aee4"
+reg-publish-s3-plugin@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/reg-publish-s3-plugin/-/reg-publish-s3-plugin-0.4.0.tgz#02104b6420c2e00a04a883ec34db7a34806287f9"
   dependencies:
     aws-sdk "^2.77.0"
     glob "^7.1.2"
@@ -1391,31 +1391,31 @@ reg-publish-s3-plugin@^0.3.1:
     mkdirp "^0.5.1"
     uuid "^3.1.0"
 
-reg-suit-core@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/reg-suit-core/-/reg-suit-core-0.3.1.tgz#63c73b483dfc58926af043c9758e2a7a1a5fc5cd"
+reg-suit-core@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/reg-suit-core/-/reg-suit-core-0.4.0.tgz#3140deb6f8ccc7c42308cfa0f02d0e22292e4c7d"
   dependencies:
     cpx "^1.5.0"
     reg-cli "^0.8.5"
-    reg-suit-util "^0.3.1"
+    reg-suit-util "^0.4.0"
     rimraf "^2.6.1"
 
-reg-suit-util@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/reg-suit-util/-/reg-suit-util-0.3.1.tgz#9266988cb2946ad733015dbc71807e3897eba078"
+reg-suit-util@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/reg-suit-util/-/reg-suit-util-0.4.0.tgz#57e0d2d3751808d934feb1cad81ca12d4721c884"
   dependencies:
     chalk "^2.0.1"
     cli-progress "^1.4.1"
     cli-spinner "^0.2.6"
 
-reg-suit@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/reg-suit/-/reg-suit-0.3.1.tgz#38bcdc745603d430a77a74602eb87b07c00474d0"
+reg-suit@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/reg-suit/-/reg-suit-0.4.0.tgz#c06bd45b806a936c788b388d9a4c93fbdb98649d"
   dependencies:
     cp-file "^4.2.0"
     inquirer "^3.1.1"
-    reg-suit-core "^0.3.1"
-    reg-suit-util "^0.3.1"
+    reg-suit-core "^0.4.0"
+    reg-suit-util "^0.4.0"
     yargs "^8.0.2"
 
 regenerator-runtime@^0.10.0:
