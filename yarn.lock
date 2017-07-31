@@ -1370,9 +1370,9 @@ reg-keygen-git-hash-plugin@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/reg-keygen-git-hash-plugin/-/reg-keygen-git-hash-plugin-0.4.0.tgz#958fc06c2b59c337f1690cb6be2acf5af6181f25"
 
-reg-notify-github-plugin@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/reg-notify-github-plugin/-/reg-notify-github-plugin-0.4.0.tgz#bd22bc137502b7147a504b5733cca581be99c7bf"
+reg-notify-github-plugin@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/reg-notify-github-plugin/-/reg-notify-github-plugin-0.4.1.tgz#f5f4467fdea90df622c42e894d277a0558407219"
   dependencies:
     open "^0.0.5"
     reg-keygen-git-hash-plugin "^0.4.0"
