@@ -1,17 +1,16 @@
 {
   "core": {
     "workingDir": "reg",
-    "actualDir": "viz-test"
+    "actualDir": "viz-test",
+    "threshold": 0
   },
   "plugins": {
     "reg-keygen-git-hash-plugin": {
       "expectedType": "base-commit"
     },
     "reg-notify-github-plugin": {
-      "installationId": "40124",
-      "owner": "reg-viz",
-      "repository": "reg-simple-demo",
-      "prComment": true
+      "clientId": "szQzsbQwtTTXL0pN1y3OzC3ISdVNSc3N1zcxMDQyAYuWZVYBAA==",
+      "prComment": true,
     },
     "reg-publish-s3-plugin": {
       "bucketName": "reg-publish-bucket-14ccadad-40b7-45b2-8d47-e278a849aa3b"
