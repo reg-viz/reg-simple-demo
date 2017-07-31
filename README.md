@@ -7,7 +7,7 @@
 ## GItHub App integration Example
 :speech_balloon: [reg-suit GitHub app](https://github.com/apps/reg-suit) comments PRs and set commit status. See https://github.com/reg-viz/reg-simple-demo/pull/3.
 
-## CI Service Setting Example
+## CI Service Setting Examples
 :robot: This repository includes the following CI services' script:
 
 - [Travis CI](https://travis-ci.org/reg-viz/reg-simple-demo) - See .travis.yml
