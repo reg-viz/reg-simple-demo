@@ -1,16 +1,18 @@
 environment:
   nodejs_version: "8"
 
-  # cache:
-  #  - "%LOCALAPPDATA%\\Yarn"
+  cache:
+   - "%LOCALAPPDATA%\\Yarn"
 
 # Install scripts. (runs after repo cloning)
 install:
   # Get the latest stable version of Node.js or io.js
   - ps: Install-Product node $env:nodejs_version
+  - echo %APPVEYOR_REPO_BRANCH%
+  - echo %APPVEYOR_REPO_NAME%
   - git branch -a
   # install modules
-  - npm install
+  - yarn
 
 # Post-install test scripts.
 test_script:
