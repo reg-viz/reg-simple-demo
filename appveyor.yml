@@ -20,3 +20,5 @@ test_script:
   # run tests
   - yarn test
   - yarn run reg-suit -- --test
+
+build: off
