@@ -8,9 +8,7 @@ cache:
 install:
   # Get the latest stable version of Node.js or io.js
   - ps: Install-Product node $env:nodejs_version
-  - echo %APPVEYOR_REPO_BRANCH%
-  - echo %APPVEYOR_REPO_NAME%
-  - git branch -a
+  - git checkout %APPVEYOR_REPO_BRANCH%
   # install modules
   - yarn
 
