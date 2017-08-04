@@ -5,9 +5,9 @@
     "reg-suit": "reg-suit run"
   },
   "devDependencies": {
-    "reg-keygen-git-hash-plugin": "^0.4.0",
-    "reg-notify-github-plugin": "^0.4.1",
-    "reg-publish-s3-plugin": "^0.4.0",
+    "reg-keygen-git-hash-plugin": "^0.4.2",
+    "reg-notify-github-plugin": "^0.4.2",
+    "reg-publish-s3-plugin": "^0.4.3",
     "reg-suit": "^0.4.0"
   }
 }

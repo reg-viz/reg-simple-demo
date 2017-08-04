@@ -1366,23 +1366,23 @@ reg-cli@^0.8.5:
     meow "^3.7.0"
     mustache "^2.3.0"
 
-reg-keygen-git-hash-plugin@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/reg-keygen-git-hash-plugin/-/reg-keygen-git-hash-plugin-0.4.0.tgz#958fc06c2b59c337f1690cb6be2acf5af6181f25"
+reg-keygen-git-hash-plugin@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/reg-keygen-git-hash-plugin/-/reg-keygen-git-hash-plugin-0.4.2.tgz#2ac33d7a7c935373631ef16bdd2bdc60646fe337"
 
-reg-notify-github-plugin@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/reg-notify-github-plugin/-/reg-notify-github-plugin-0.4.1.tgz#f5f4467fdea90df622c42e894d277a0558407219"
+reg-notify-github-plugin@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/reg-notify-github-plugin/-/reg-notify-github-plugin-0.4.2.tgz#ad9dbf3f27d4c67dc9c7ed18ec28256b8612b4e3"
   dependencies:
     open "^0.0.5"
-    reg-keygen-git-hash-plugin "^0.4.0"
+    reg-keygen-git-hash-plugin "^0.4.2"
     reg-suit-util "^0.4.0"
     request "^2.81.0"
     request-promise "^4.2.1"
 
-reg-publish-s3-plugin@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/reg-publish-s3-plugin/-/reg-publish-s3-plugin-0.4.0.tgz#02104b6420c2e00a04a883ec34db7a34806287f9"
+reg-publish-s3-plugin@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/reg-publish-s3-plugin/-/reg-publish-s3-plugin-0.4.3.tgz#da566be47df53291df772cadba685c5cb490c6f6"
   dependencies:
     aws-sdk "^2.77.0"
     glob "^7.1.2"
