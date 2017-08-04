@@ -8,6 +8,7 @@ cache:
 install:
   # Get the latest stable version of Node.js or io.js
   - ps: Install-Product node $env:nodejs_version
+  - git branch -a
   # install modules
   - yarn
 
@@ -16,7 +17,6 @@ test_script:
   # Output useful info for debugging.
   - node --version
   - npm --version
-  - git branch -a
   # run tests
   - yarn test
   - yarn run reg-suit -- --test
