@@ -1,4 +1,6 @@
 # reg-simple-demo
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/reg-viz/reg-simple-demo.svg)](https://greenkeeper.io/)
 :space_invader: [reg-suit](https://github.com/reg-viz/reg-suit) demonstration repository
 
 ## Comparison Report Example
