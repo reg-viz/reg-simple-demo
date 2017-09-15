@@ -14,3 +14,5 @@
 - [CircleCI](https://circleci.com/gh/reg-viz/reg-simple-demo) - See .circleci/config.yml
 - [wercker](https://app.wercker.com/reg-viz/reg-simple-demo/runs) - See wercker.yml
 - [AppVeyor](https://ci.appveyor.com/project/Quramy/reg-simple-demo) - See appveyor.yml
+
+!
